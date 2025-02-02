@@ -1,4 +1,4 @@
-# Sequential Thinking LP Solver
+# Sequential Thinking MCP Server - LP Solver
 
 This repository demonstrates how to solve Linear Programming (LP) problems using the Sequential Thinking Model Context Protocol (MCP). The approach breaks down complex optimization problems into systematic, verifiable steps while maintaining flexibility for revisions and alternative paths.
 
