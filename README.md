@@ -1,6 +1,6 @@
 # Sequential Thinking MCP Server - LP Solver
 
-This repository demonstrates how to solve Linear Programming (LP) problems using the Sequential Thinking Model Context Protocol (MCP). The approach breaks down complex optimization problems into systematic, verifiable steps while maintaining flexibility for revisions and alternative paths.
+This repository demonstrates how to solve Linear Programming (LP) and Non-Linear Programming (NLP) problems using the Sequential Thinking Model Context Protocol (MCP). The approach breaks down complex optimization problems into systematic, verifiable steps while maintaining flexibility for revisions and alternative paths.
 
 ## Prerequisites
 
@@ -34,7 +34,8 @@ In our case, we're using the Sequential Thinking MCP Server through Claude Deskt
   - [`mcp_servers.md`](docs/mcp_servers.md): Detailed explanation of MCP Servers
   - [`sequential_thinking_guide.md`](docs/sequential_thinking_guide.md): Comprehensive usage guide
 - `examples/`: Example problems and solutions
-  - [`furniture_manufacturing.md`](examples/furniture_manufacturing.md): Complete example with solution
+  - [`furniture_manufacturing.md`](examples/furniture_manufacturing.md): Linear Programming example
+  - [`marketing_budget_nlp.md`](examples/marketing_budget_nlp.md): Non-Linear Programming example
   - [`problem_variations.md`](examples/problem_variations.md): Additional problem scenarios
 - `templates/`: Templates for applying the sequential thinking process
   - [`sequential_thinking_template.md`](templates/sequential_thinking_template.md): Template for new problems
@@ -44,12 +45,14 @@ In our case, we're using the Sequential Thinking MCP Server through Claude Deskt
 1. Install and set up the [Claude Desktop App](https://anthropic.com/claude)
 2. Review the methodology in [`docs/methodology.md`](docs/methodology.md)
 3. Understand MCP Servers in [`docs/mcp_servers.md`](docs/mcp_servers.md)
-4. Check out the example problem in [`examples/furniture_manufacturing.md`](examples/furniture_manufacturing.md)
+4. Check out example problems:
+   - Linear Programming: [`examples/furniture_manufacturing.md`](examples/furniture_manufacturing.md)
+   - Non-Linear Programming: [`examples/marketing_budget_nlp.md`](examples/marketing_budget_nlp.md)
 5. Use the template from [`templates/sequential_thinking_template.md`](templates/sequential_thinking_template.md) for your own problems
 
 ## Using with Claude
 
-When using Claude to solve Linear Programming problems:
+When using Claude to solve optimization problems:
 1. Access Claude through any of the available interfaces
 2. Use the provided templates and examples as reference
 3. Leverage the Sequential Thinking MCP for structured problem-solving
