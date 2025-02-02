@@ -9,9 +9,20 @@ This solution uses the Claude Desktop App, which provides access to Anthropic's 
 - [Claude Web Interface](https://claude.ai)
 - [Anthropic API](https://docs.anthropic.com/claude/docs)
 
-## Understanding MCP Servers
+## Model Context Protocol (MCP)
 
 The Model Context Protocol (MCP) is an open standard that enables secure, two-way connections between AI models and various tools and data sources. Think of it like USB-C for AI - it provides a standardized way to connect AI models to different data sources and tools.
+
+### MCP Architecture
+![MCP Architecture](docs/images/mcp_architecture.png)
+
+The MCP follows a client-server architecture where:
+- **Hosts** are LLM applications (like Claude Desktop) that initiate connections
+- **Clients** maintain 1:1 connections with servers inside the host application
+- **Servers** provide context, tools, and prompts to clients
+
+### Claude Interface
+![Claude Interface](docs/images/claude_interface.png)
 
 In our case, we're using the Sequential Thinking MCP Server through Claude Desktop App, which provides structured problem-solving capabilities through a client-host-server architecture. This allows us to:
 - Break down complex problems systematically
@@ -25,6 +36,7 @@ In our case, we're using the Sequential Thinking MCP Server through Claude Deskt
   - `methodology.md`: Core Sequential Thinking methodology
   - `mcp_servers.md`: Detailed explanation of MCP Servers
   - `sequential_thinking_guide.md`: Comprehensive usage guide
+  - `images/`: Screenshots and diagrams
 - `examples/`: Example problems and solutions
 - `templates/`: Templates for applying the sequential thinking process
 
@@ -47,6 +59,7 @@ When using Claude to solve Linear Programming problems:
 For more information about using Claude, visit:
 - [Claude Documentation](https://docs.anthropic.com/claude/docs)
 - [Claude API Reference](https://docs.anthropic.com/claude/reference/getting-started-with-the-api)
+- [Model Context Protocol Documentation](https://modelcontextprotocol.io/docs)
 
 ## Contributing
 
