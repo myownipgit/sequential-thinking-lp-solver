@@ -30,19 +30,22 @@ In our case, we're using the Sequential Thinking MCP Server through Claude Deskt
 ## Repository Structure
 
 - `docs/`: Documentation and methodology
-  - `methodology.md`: Core Sequential Thinking methodology
-  - `mcp_servers.md`: Detailed explanation of MCP Servers
-  - `sequential_thinking_guide.md`: Comprehensive usage guide
+  - [`methodology.md`](docs/methodology.md): Core Sequential Thinking methodology
+  - [`mcp_servers.md`](docs/mcp_servers.md): Detailed explanation of MCP Servers
+  - [`sequential_thinking_guide.md`](docs/sequential_thinking_guide.md): Comprehensive usage guide
 - `examples/`: Example problems and solutions
+  - [`furniture_manufacturing.md`](examples/furniture_manufacturing.md): Complete example with solution
+  - [`problem_variations.md`](examples/problem_variations.md): Additional problem scenarios
 - `templates/`: Templates for applying the sequential thinking process
+  - [`sequential_thinking_template.md`](templates/sequential_thinking_template.md): Template for new problems
 
 ## Getting Started
 
 1. Install and set up the [Claude Desktop App](https://anthropic.com/claude)
-2. Review the methodology in `docs/methodology.md`
-3. Understand MCP Servers in `docs/mcp_servers.md`
-4. Check out the example problem in `examples/furniture_manufacturing.md`
-5. Use the template from `templates/sequential_thinking_template.md` for your own problems
+2. Review the methodology in [`docs/methodology.md`](docs/methodology.md)
+3. Understand MCP Servers in [`docs/mcp_servers.md`](docs/mcp_servers.md)
+4. Check out the example problem in [`examples/furniture_manufacturing.md`](examples/furniture_manufacturing.md)
+5. Use the template from [`templates/sequential_thinking_template.md`](templates/sequential_thinking_template.md) for your own problems
 
 ## Using with Claude
 
@@ -59,8 +62,8 @@ For more information about using Claude, visit:
 
 ## Contributing
 
-Contributions are welcome! Please read `CONTRIBUTING.md` for details on our code of conduct and the process for submitting pull requests.
+Contributions are welcome! Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
 ## License
 
-This project is licensed under the MIT License - see the `LICENSE` file for details.
+This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
