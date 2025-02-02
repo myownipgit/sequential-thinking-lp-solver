@@ -14,15 +14,12 @@ This solution uses the Claude Desktop App, which provides access to Anthropic's 
 The Model Context Protocol (MCP) is an open standard that enables secure, two-way connections between AI models and various tools and data sources. Think of it like USB-C for AI - it provides a standardized way to connect AI models to different data sources and tools.
 
 ### MCP Architecture
-![MCP Architecture](docs/images/mcp_architecture.png)
-
 The MCP follows a client-server architecture where:
 - **Hosts** are LLM applications (like Claude Desktop) that initiate connections
 - **Clients** maintain 1:1 connections with servers inside the host application
 - **Servers** provide context, tools, and prompts to clients
 
-### Claude Interface
-![Claude Interface](docs/images/claude_interface.png)
+For detailed architecture diagrams and documentation, visit the [Model Context Protocol Documentation](https://modelcontextprotocol.io/docs).
 
 In our case, we're using the Sequential Thinking MCP Server through Claude Desktop App, which provides structured problem-solving capabilities through a client-host-server architecture. This allows us to:
 - Break down complex problems systematically
@@ -36,7 +33,6 @@ In our case, we're using the Sequential Thinking MCP Server through Claude Deskt
   - `methodology.md`: Core Sequential Thinking methodology
   - `mcp_servers.md`: Detailed explanation of MCP Servers
   - `sequential_thinking_guide.md`: Comprehensive usage guide
-  - `images/`: Screenshots and diagrams
 - `examples/`: Example problems and solutions
 - `templates/`: Templates for applying the sequential thinking process
 
